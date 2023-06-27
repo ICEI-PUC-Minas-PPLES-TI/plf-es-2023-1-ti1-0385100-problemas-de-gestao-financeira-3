@@ -1,0 +1,59 @@
+body{
+    background-color: #185C72;
+    color: #00D1C5;
+    display: flex;
+    justify-content: center;
+}
+.container img{
+    width: 600px;
+}
+
+.container {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin:10px;
+    padding: 10px;
+    width: calc(50%);
+}
+
+.container h3 {
+color:white;
+}
+
+.container #inp1 {
+    display: block;
+    width: 500px;
+}
+.container #inp2 {
+    width: 500px;
+}
+
+#inp3 {
+    width: 150px;
+}
+
+button {
+    width: 150px;
+}
+h5 .modal{
+    color:#185C72;
+}
+
+@media screen and (max-width: 670px){
+    body{
+        width: calc(80%);
+        display: flex;
+        justify-content: center;
+    }
+    .container {
+        display:block;
+        width: calc(50%);
+        margin:10px;
+        padding:10px;
+    }
+
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}

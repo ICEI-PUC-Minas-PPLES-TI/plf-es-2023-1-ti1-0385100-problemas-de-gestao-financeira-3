@@ -1,0 +1,192 @@
+nav {
+  background-color: #185C72;
+  border: 2px solid white;
+}
+.nav-item{
+ padding: 5px;;
+}
+@media screen and (max-width:1220px) {
+  nav h4 {
+    display: none;
+  }
+  
+}
+@media screen and (max-width:990px) {
+  nav {
+    border: none;
+  }
+  
+}
+
+nav h4{
+  color: #185C72;
+}
+nav button {
+  border-radius: 10px;
+  border: 1px solid white;
+}
+nav svg {
+  width: 30px;
+}
+nav div img {
+  width: calc(45%);
+  height: 150px;
+}
+
+a:hover{
+        background-color: white;
+        opacity: 60%;
+    }
+
+.cor{
+    background-color: #185C72;
+    color: white;
+}
+.container1 {
+    background-color: #185C72;
+    padding: 10px;
+    
+}
+#resultados{
+    padding: 10px;
+}
+#formularioNovaMeta{
+    padding: 10px;
+}
+body {
+    background-color: #185C72;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: white;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  form {
+    margin-bottom: 1em;
+    width: 100%;
+    border-radius: 20px;
+  }
+  
+  form label,
+  form input,
+  form select {
+    display: block;
+    margin-bottom: 0.5em;
+    border-radius: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1em;
+  
+  }
+  
+  table th,
+  table td {
+    border: 1px solid #ffffff;
+    padding: 0.5em;
+    text-align: center;
+  }
+  
+  table th {
+    background-color:#1b1b1b;
+    color: #ffffff;
+  }
+  header button {
+    background-color:#ffffff;
+    border-radius: 10px;
+  }
+  button:hover{
+    background-color: white;
+    opacity: 60%;
+}
+input:hover{
+  background-color: white;
+  opacity: 60%;
+}
+  .container1 button {
+    
+    color: #000000;
+    border: 3px solid white;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+
+  input[type="submit"] {
+    
+    color: #000000;
+    border: 3px solid white;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 1.5em;
+    }
+  
+    form label,
+    form input,
+    form select {
+      font-size: 0.8em;
+    }
+  
+    table,
+    table th,
+    table td {
+      font-size: 0.8em;
+    }
+  }
+  
+  .container1 {
+    width: calc(100%);
+  }
+  .popup {
+    display: none; /* Oculta o pop-up por padrão */
+    position: fixed; /* Posição fixa na tela */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente */
+  }
+  
+  .popup-content {
+    background-color: rgb(0, 0, 0);
+    width: 300px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centraliza o pop-up */
+  }
+  
+  .button {
+    margin-top: 5px;
+    position: relative;
+  }
+
+  a {
+    background-color: #00D1C5;
+    background: #00D1C5;
+  }
+  #resultados button {
+    border: 3px solid rgb(255, 255, 255);
+    background-color: rgb(94, 192, 231);
+  }
